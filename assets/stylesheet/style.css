@@ -8,8 +8,31 @@ nav svg {
 }
 
 header {
-    height: 100px;
+    height: 150px;
 }
+
+.navigation{
+    position: relative;
+    top: 130px;
+}
+a{
+color: #000;
+}
+.navigation li a:hover{
+    text-decoration: none;
+    color: red !important;
+}
+
+div.navigation:after {
+    content: '';
+    position: absolute;
+    width: 1100%; height: 1100%;
+    top: 20px; right: -500%;
+    background: rgba(255,255,255,.8);
+    transform-origin: 54% 0;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
 
 @media (max-width: 768px) {
     .justify-xs-left {
