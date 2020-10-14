@@ -5,11 +5,31 @@ nav svg {
 
 nav {
     background-color: #f72210;
-    z-index: 4;
+    height: 110px;
+    z-index: 10;
 }
 
 header {
     height: 150px;
+}
+
+main {
+    top: 100px;
+    height: 1000px;
+    position: relative;
+}
+
+.image {
+    position: relative;
+}
+
+.category {
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, .9);
+}
+.featured-stories img {
+    width: 100%;
 }
 
 .navigation{
@@ -33,24 +53,20 @@ color: #000;
 .subscribe a {
     color: white;
 }
-
+ 
 .fold:after {
     content: '';
     position: absolute;
-    width: 100%; height: 200%;
-    top: 200px; right: -1000px;
+    width: 5%; height: 10px;
+    top: 2px; right: 10px;
     background: #f72210;
     transform-origin: 54% 10;
     transform: rotate(45deg);
     z-index: 1;
-}
+} 
 
 .trending-topics  li a{
 color: #646262;
-}
-
-.trending-topics-wrapper {
-    z-index: 3;
 }
 
 @media (max-width: 768px) {
