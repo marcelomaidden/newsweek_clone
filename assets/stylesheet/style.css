@@ -1,0 +1,18 @@
+nav {
+    background-color: #f72210;
+}
+
+nav svg {
+    width: 50%;
+    fill: white;
+}
+
+header {
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    .justify-xs-left {
+        justify-content: start;
+    }
+}
