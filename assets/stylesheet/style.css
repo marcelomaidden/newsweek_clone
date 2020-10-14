@@ -1,10 +1,11 @@
-nav {
-    background-color: #f72210;
+nav svg {
+    width: 55%;
+    fill: white;
 }
 
-nav svg {
-    width: 50%;
-    fill: white;
+nav {
+    background-color: #f72210;
+    z-index: 4;
 }
 
 header {
@@ -13,30 +14,44 @@ header {
 
 .navigation{
     position: relative;
-    top: 130px;
+    top: 110px;
 }
-a{
+
+a {
 color: #000;
 }
+
 .navigation li a:hover{
     text-decoration: none;
     color: red !important;
 }
 
-div.navigation:after {
+.subscribe {
+    z-index: 10;
+}
+
+.subscribe a {
+    color: white;
+}
+
+.fold:after {
     content: '';
     position: absolute;
-    width: 1100%; height: 1100%;
-    top: 20px; right: -500%;
-    background: rgba(255,255,255,.8);
-    transform-origin: 54% 0;
+    width: 100%; height: 200%;
+    top: 200px; right: -1000px;
+    background: #f72210;
+    transform-origin: 54% 10;
     transform: rotate(45deg);
-    z-index: -1;
-  }
+    z-index: 1;
+}
 
-  .trending-topics  li a{
-    color: #646262;
-  }
+.trending-topics  li a{
+color: #646262;
+}
+
+.trending-topics-wrapper {
+    z-index: 3;
+}
 
 @media (max-width: 768px) {
     .justify-xs-left {
