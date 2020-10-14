@@ -34,6 +34,10 @@ div.navigation:after {
     z-index: -1;
   }
 
+  .trending-topics  li a{
+    color: #646262;
+  }
+
 @media (max-width: 768px) {
     .justify-xs-left {
         justify-content: start;
