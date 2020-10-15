@@ -86,13 +86,13 @@
             </div>
         </div>
     </header>
-    <main class="d-flex container-fluid">
+    <main class="d-flex container-fluid position-relative">
         <div class="row">
-            <section class="main-articles d-flex col-12 col-md-6 col-lg-9">
+            <section class="main-articles d-flex col-12 col-md-6 col-lg-8">
                 <div class="row">
                     <div class="d-flex flex-column flex-md-row col-12">
-                        <section class="col-12 col-lg-4 featured-stories order-2  order-md-1">
-                            <div>
+                        <section class="col-12 col-lg-5 featured-stories order-2  order-md-1">
+                            <div class = "main-title">
                                 FEATURED STORIES
                             </div>
                             <article class="d-flex flex-column">
@@ -214,8 +214,8 @@
                                 </div>
                             </article>
                         </section>
-                        <section class="col-12 col-lg-8 top-stories order-1 order-md-2">
-                            <div>
+                        <section class="col-12 col-lg-7 top-stories order-1 order-md-2">
+                            <div class = "main-title">
                                 TOP STORY
                             </div>
 
@@ -224,7 +224,7 @@
                                     <div class="image">
                                         <div class="category p-2"><a href="#">Opinion</a></div>
                                         <a href="#">
-                                            <figure class="top-story-img" height="265">
+                                            <figure class="top-story-img">
                                                 <img src="https://d.newsweek.com/en/full/1646547/florida-ballot.jpg?w=591&amp;h=364&amp;f=d2b594ff10dd00596608adc8492d8991"
                                                     alt="feature-1" />
                                             </figure>
@@ -243,7 +243,7 @@
 
                             </article>
                             <!-- add more content -->
-                            <session class="d-flex flex-column culture-stories d-none d-md-block order-2">                                
+                            <section class="d-flex flex-column culture-stories d-none d-md-block order-2">                                
                                 <div class="block-title text-uppercase pt-4 font-weight-bolder d-flex">
                                     <a href="#">My Turn</a>
                                 </div>
@@ -251,9 +251,9 @@
                                     <article class="culture-item col-md-4">
                                         <div class="image">
                                             <a href="#">
-                                                <picture class="mapping-mobile lazysize">
+                                                <picture>
                                                     <img alt="Doctors, Black Doctors, Black Women "
-                                                        title="Doctors, Black Doctors, Black Women " width="397"
+                                                        title="Doctors, Black Doctors, Black Women " 
                                                         src="https://d.newsweek.com/en/full/1651562/doctors-black-doctors-black-women.jpg?w=397&amp;h=397&amp;f=be740fb23f1221385ce261c2798ccf10">
                                                 </picture>
                                             </a></div>
@@ -267,7 +267,7 @@
                                     <article class="culture-item col-md-4">
                                         <div class="image">
                                             <a href="#">
-                                                <picture width="397" class="mapping-mobile lazysize">
+                                                <picture>
                                                     <img alt="Chef, Cooking, TikTok, Pandemic, Coronavirus "
                                                         title="Chef, Cooking, TikTok, Pandemic, Coronavirus "
                                                         src="https://d.newsweek.com/en/full/1650275/chef-cooking-tiktok-pandemic-coronavirus.png?w=397&amp;h=397&amp;f=964832354f12008572a856f35699e101">
@@ -282,7 +282,7 @@
                                     <article class="culture-item col-md-4">
                                         <div class="image">
                                             <a href="#">
-                                                <picture class="mapping-mobile lazysize">
+                                                <picture>
                                                     <img alt="Love, romance, Italy, Romeo and Juliet, pandemic"
                                                         title="Love, romance, Italy, Romeo and Juliet, pandemic"
                                                         src="https://d.newsweek.com/en/full/1649546/love-romance-italy-romeo-juliet-pandemic.jpg?w=397&amp;h=397&amp;f=b43eff729a8e2cb0b2a31df40a151d77">
@@ -306,7 +306,7 @@
                                     <article class="culture-item col-md-4">
                                         <div class="image">
                                             <a href="#">
-                                                <picture class="mapping-mobile lazysize">
+                                                <picture>
                                                     <img alt="Singapore Airlines " title="Singapore Airlines "
                                                         src="https://d.newsweek.com/en/full/1646134/singapore-airlines.jpg?w=397&amp;h=397&amp;f=cd1314e3605caada5183ae4917133d96">
                                                 </picture>
@@ -325,7 +325,7 @@
                                     <article class="culture-item col-md-4">
                                         <div class="image">
                                             <a href="#">
-                                                <picture class="mapping-mobile lazysize">
+                                                <picture>
                                                     <img alt="100 best rock albums of all time, according to critics"
                                                         title="100 best rock albums of all time, according to critics"
                                                         src="https://d.newsweek.com/en/full/1645381/100-best-rock-albums-all-time-according-critics.png?w=397&amp;h=397&amp;f=4fac5a43a9d8890fa4ae6281e59ace15">
@@ -362,24 +362,22 @@
                                     </article>
                                 </div>
                                 <!-- end culture and travel section -->
-                            </session>
+                            </section>
                             <!-- more content ends here -->
 
                             <!-- start more stories -->
 
-                            <div id="block-nw-home-featured-more" class="block block-nw order-3">
+                            <section id="more-stories" class="block block-nw order-3">
                                 <div class="content">
                                     <div class="feature2">
                                         <div class="block-title">
                                             MORE STORIES</div>
-                                        <article class="clearfix">
-                                            <div class="image">
+                                        <article>
+                                            <div class="image float-left pr-3">
                                                 <a href="#">
-                                                    <picture height="95" class="mapping-sm_thumb lazysize"
-                                                        >
+                                                    <picture>
                                                         <img
-                                                            alt="Rochester " title="Rochester " height="95"
-                                                            class="mapping-sm_thumb lazysize lazyloaded"
+                                                            alt="Rochester " title="Rochester "
                                                             src="https://d.newsweek.com/en/full/1651509/rochester.jpg?w=95&amp;h=95&amp;f=7d3386e591a3a97f5869d3cc906bfa60">
                                                     </picture>
                                                 </a></div>
@@ -391,15 +389,14 @@
                                                 of a man, who police conceded had been taken into custody on an
                                                 "erroneously issued" bench warrant.</div>
                                         </article>
-                                        <article class="clearfix">
-                                            <div class="image">
+                                        <article>
+                                            <div class="image float-left pr-3">
                                                 <a
                                                     href="#">
-                                                    <picture height="95" class="mapping-sm_thumb lazysize"
-                                                        >
+                                                    <picture>
+                                                        
                                                         <img
-                                                            alt="nancy pelosi" title="nancy pelosi" width="95"
-                                                            height="95" class="mapping-sm_thumb lazysize lazyloaded"
+                                                            alt="nancy pelosi" title="nancy pelosi" 
                                                             src="https://d.newsweek.com/en/full/1651490/nancy-pelosi.jpg?w=95&amp;h=95&amp;f=892b64c967eeb5444f4edcaadf7fb2f1">
                                                     </picture>
                                                 </a></div>
@@ -411,14 +408,13 @@
                                                 Barrett's vote should be first while 33 percent of Republicans said
                                                 voting on the next stimulus package should happen first.</div>
                                         </article>
-                                        <article class="clearfix">
-                                            <div class="image">
+                                        <article>
+                                            <div class="image float-left pr-3">
                                                 <a href="#">
-                                                    <picture width="95" height="95" class="mapping-sm_thumb lazysize"
-                                                        >
+                                                    <picture>
+                                                        
                                                         <img
-                                                            alt="biden" title="biden" height="95"
-                                                            class="mapping-sm_thumb lazysize lazyloaded"
+                                                            alt="biden" title="biden"
                                                             src="https://d.newsweek.com/en/full/1651592/biden.jpg?w=95&amp;h=95&amp;f=1f6c1f238ed53646dda5bb95eea6a5fc">
                                                     </picture>
                                                 </a></div>
@@ -429,15 +425,12 @@
                                                 just a few years older than him, as he attempts to garner support ahead
                                                 of the election.</div>
                                         </article>
-                                        <article class="clearfix">
-                                            <div class="image">
+                                        <article>
+                                            <div class="image float-left pr-3">
                                                 <a href="#">
-                                                    <picture width="95" height="95" class="mapping-sm_thumb lazysize"
->
+                                                    <picture>
                                                         <img
                                                             alt="space debris" title="space debris"
-                                                            height="95" class="mapping-sm_thumb lazysize lazyloaded"
-                                                            style="position: absolute;"
                                                             src="https://d.newsweek.com/en/full/1651525/space-debris.jpg?w=95&amp;h=95&amp;f=3ada4e90df47c1dd584bf9fe16308fc7">
                                                     </picture>
                                                 </a></div>
@@ -447,34 +440,32 @@
                                             <div class="summary">The combined mass of both objects is roughly 2.8 metric
                                                 tons.</div>
                                         </article>
-                                        <article class="clearfix">
-                                            <div class="image">
+                                        <article>
+                                            <div class="image float-left pr-3">
                                                 <a href="#">
-                                                    <picture width="95" height="95" class="mapping-sm_thumb lazysize"
->
+                                                    <picture>
                                                         <img
                                                             alt="Pete Buttigieg and His Husband, Chasten"
-                                                            title="Pete Buttigieg and His Husband, Chasten" width="95"
-                                                            height="95" class="mapping-sm_thumb lazysize lazyloaded"
+                                                            title="Pete Buttigieg and His Husband, Chasten"
                                                             src="https://d.newsweek.com/en/full/1651493/pete-buttigieg-his-husband-chasten.jpg?w=95&amp;h=95&amp;f=784f0a28a761ed2e666a997f506fbf01">
                                                     </picture>
-                                                </a></div>
+                                                </a>
+                                            </div>
                                             <h4><a href="#">Buttigieg
                                                     Warns Barrett Could Put 'Marriage Equality Back on the Table'</a>
                                             </h4>
                                             <div class="summary">Buttigieg suggested that Barrett's confirmation could
-                                                threaten the right of same-sex couples to marry.</div>
+                                                threaten the right of same-sex couples to marry.
+                                            </div>
                                         </article>
-                                        <article class="clearfix">
-                                            <div class="image">
+                                        <article>
+                                            <div class="image float-left pr-3">
                                                 <a
                                                     href="#">
-                                                    <picture width="95" height="95" class="mapping-sm_thumb lazysize"
-                                                        >
+                                                    <picture>                                                        
                                                         <img
                                                             alt="Ballot with Kanye as VP"
-                                                            title="Ballot with Kanye as VP" width="95" height="95"
-                                                            class="mapping-sm_thumb lazysize lazyloaded"
+                                                            title="Ballot with Kanye as VP"
                                                             src="https://d.newsweek.com/en/full/1648395/ballot-kanye-vp.jpg?w=95&amp;h=95&amp;f=5ec5c2ae966ee8c44e50bb95daa9fa07">
                                                     </picture>
                                                 </a></div>
@@ -486,16 +477,14 @@
                                                 election results from the state, where polls opened Wednesday for early
                                                 voting.</div>
                                         </article>
-                                        <article class="clearfix">
-                                            <div class="image">
+                                        <article >
+                                            <div class="image float-left pr-3">
                                                 <a href="#">
-                                                    <picture width="95" height="95" class="mapping-sm_thumb lazysize"
->
+                                                    <picture>
+
                                                        <img
                                                             alt="china qingdao covid-19 testing"
-                                                            title="china qingdao covid-19 testing" width="95"
-                                                            height="95" class="mapping-sm_thumb lazysize lazyloaded"
-                                                            style="position: absolute;"
+                                                            title="china qingdao covid-19 testing"
                                                             src="https://d.newsweek.com/en/full/1651589/china-qingdao-covid-19-testing.jpg?w=95&amp;h=95&amp;f=bbbd873a93ef6eeebc8a3fe4a984be4e">
                                                     </picture>
                                                 </a></div>
@@ -507,104 +496,96 @@
                                                 magazine cover to ridicule the Trump administration's COVID-19 response.
                                             </div>
                                         </article>
-                                        <article class="clearfix">
-                                            <div class="image">
-                                                <a href="#">
-                                                    <picture width="95" height="95" class="mapping-sm_thumb lazysize"
-                                                       >
+                                        <section class = "sticky">                                        
+                                            <article>
+                                                <div class="image float-left pr-3">
+                                                    <a href="#">
+                                                        <picture>
+                                                        
+                                                            <img
+                                                                alt="John 'Tig' Tiegen"
+                                                                title="John &quot;Tig&quot; Tiegen"
+                                                                src="https://d.newsweek.com/en/full/1651530/john-tig-tiegen.jpg?w=95&amp;h=95&amp;f=c557fb50a02ca3433f096f1c18cb1950">
+                                                        </picture>
+                                                    </a></div>
+                                                <h4><a href="#">Benghazi Veteran
+                                                        John Tiegen Gets Kicked Off Facebook and Instagram</a></h4>
+                                                <div class="summary">The social media platform appears to have taken action
+                                                    after the former U.S. Marine promoted a "Patriot Muster" protest in
+                                                    Denver last weekend that resulted in a man being shot dead.</div>
+                                            </article>
+                                            <article>
+                                                <div class="image float-left pr-3">
+                                                    <a href="#">
+                                                        <picture>
+                                                            <img
+                                                                alt="hay " title="hay "
+                                                                src="https://d.newsweek.com/en/full/1651598/hay.jpg?w=95&amp;h=95&amp;f=b5d54b7a1bd2f80a8a2ad60333bbbbae">
+                                                        </picture>
+                                                    </a></div>
+                                                <h4><a href="#">Trump Supporter Set
+                                                        Fire to Biden 2020 Hay Bale Sign on Massachusetts Farm</a></h4>
+                                                <div class="summary">Suspect Lonnie Durfee is alleged to have caused the
+                                                    huge blaze at the Holiday Brook Farm in Dalton while being "distraught"
+                                                    over recent deah of his son</div>
+                                            </article>
+                                            <article>
+                                                <div class="image float-left pr-3">
+                                                    <a href="#">
+                                                        <picture>
+                                                            <img
+                                                                alt="Former Democratic Rep. Beto O'Rourke"
+                                                                title="Former Democratic Rep. Beto O'Rourke"
+                                                                src="https://d.newsweek.com/en/full/1651556/former-democratic-rep-beto-orourke.jpg?w=95&amp;h=95&amp;f=96f1cb74428b2e539d17d5bbf5c52d1a">
+                                                        </picture>
+                                                    </a></div>
+                                                <h4><a href="#">Beto O'Rourke Says Biden
+                                                        Can Win Texas and Secure Victory on Election Night</a></h4>
+                                                <div class="summary">A Biden win in the Lone Star State would be a major
+                                                    political victory and would likely hand him the presidency.</div>
+                                            </article>
+                                            <article>
+                                                <div class="image float-left pr-3">
+                                                    <a
+                                                        href="#">
+                                                        <picture>
+                                                            <img
+                                                                alt="NYC Best Buy store mask sign 2020"
+                                                                title="NYC Best Buy store mask sign 2020"
+                                                                src="https://d.newsweek.com/en/full/1651520/nyc-best-buy-store-mask-sign-2020.jpg?w=95&amp;h=95&amp;f=961d30b71f2c9e9ef2f3cb27ef7ee55e">
+                                                        </picture>
+                                                    </a></div>
+                                                <h4><a
+                                                        href="#">Maskless
+                                                        Woman Jailed After Hitting Store Worker When Refused Service</a>
+                                                </h4>
+                                                <div class="summary">The woman reportedly attempted to steal a bag of chips
+                                                    after the employee asked her to either leave the shop or wear a mask.
+                                                </div>
+                                            </article>
+                                            <article>
+                                                <div class="image float-left pr-3">
+                                                    <a
+                                                        href="#">
+                                                        <picture>
                                                         <img
-                                                            alt="John 'Tig' Tiegen"
-                                                            title="John &quot;Tig&quot; Tiegen" width="95" height="95"
-                                                            class="mapping-sm_thumb lazysize lazyloaded"
-                                                            style="position: absolute;"
-                                                            src="https://d.newsweek.com/en/full/1651530/john-tig-tiegen.jpg?w=95&amp;h=95&amp;f=c557fb50a02ca3433f096f1c18cb1950">
-                                                    </picture>
-                                                </a></div>
-                                            <h4><a href="#">Benghazi Veteran
-                                                    John Tiegen Gets Kicked Off Facebook and Instagram</a></h4>
-                                            <div class="summary">The social media platform appears to have taken action
-                                                after the former U.S. Marine promoted a "Patriot Muster" protest in
-                                                Denver last weekend that resulted in a man being shot dead.</div>
-                                        </article>
-                                        <article class="clearfix">
-                                            <div class="image">
-                                                <a href="#">
-                                                    <picture height="95" class="mapping-sm_thumb lazysize"
-                                                        ><img
-                                                            alt="hay " title="hay " height="95"
-                                                            class="mapping-sm_thumb lazysize lazyloaded"
+                                                                alt="ted cruz, senator, texas, amy coney barrett,getty"
+                                                                title="ted cruz, senator, texas, amy coney barrett,getty"
                                                             
-                                                            src="https://d.newsweek.com/en/full/1651598/hay.jpg?w=95&amp;h=95&amp;f=b5d54b7a1bd2f80a8a2ad60333bbbbae">
-                                                    </picture>
-                                                </a></div>
-                                            <h4><a href="#">Trump Supporter Set
-                                                    Fire to Biden 2020 Hay Bale Sign on Massachusetts Farm</a></h4>
-                                            <div class="summary">Suspect Lonnie Durfee is alleged to have caused the
-                                                huge blaze at the Holiday Brook Farm in Dalton while being "distraught"
-                                                over recent deah of his son</div>
-                                        </article>
-                                        <article class="clearfix">
-                                            <div class="image">
-                                                <a href="#">
-                                                    <picture height="95" class="mapping-sm_thumb lazysize"
-                                                        >
-                                                        <img
-                                                            alt="Former Democratic Rep. Beto O'Rourke"
-                                                            title="Former Democratic Rep. Beto O'Rourke" width="95"
-                                                            height="95" class="mapping-sm_thumb lazysize lazyloaded"
-                                                            src="https://d.newsweek.com/en/full/1651556/former-democratic-rep-beto-orourke.jpg?w=95&amp;h=95&amp;f=96f1cb74428b2e539d17d5bbf5c52d1a">
-                                                    </picture>
-                                                </a></div>
-                                            <h4><a href="#">Beto O'Rourke Says Biden
-                                                    Can Win Texas and Secure Victory on Election Night</a></h4>
-                                            <div class="summary">A Biden win in the Lone Star State would be a major
-                                                political victory and would likely hand him the presidency.</div>
-                                        </article>
-                                        <article class="clearfix">
-                                            <div class="image">
-                                                <a
-                                                    href="#">
-                                                    <picture width="95" height="95" class="mapping-sm_thumb lazysize"
->
-                                                        <img
-                                                            alt="NYC Best Buy store mask sign 2020"
-                                                            title="NYC Best Buy store mask sign 2020" width="95"
-                                                            height="95" class="mapping-sm_thumb lazysize lazyloaded"
-                                                            src="https://d.newsweek.com/en/full/1651520/nyc-best-buy-store-mask-sign-2020.jpg?w=95&amp;h=95&amp;f=961d30b71f2c9e9ef2f3cb27ef7ee55e">
-                                                    </picture>
-                                                </a></div>
-                                            <h4><a
-                                                    href="#">Maskless
-                                                    Woman Jailed After Hitting Store Worker When Refused Service</a>
-                                            </h4>
-                                            <div class="summary">The woman reportedly attempted to steal a bag of chips
-                                                after the employee asked her to either leave the shop or wear a mask.
-                                            </div>
-                                        </article>
-                                        <article class="clearfix">
-                                            <div class="image">
-                                                <a
-                                                    href="#">
-                                                    <picture height="95" class="mapping-sm_thumb lazysize"
-                                                      >
-                                                     <img
-                                                            alt="ted cruz, senator, texas, amy coney barrett,getty"
-                                                            title="ted cruz, senator, texas, amy coney barrett,getty"
-                                                            height="95"
-                                                            class="mapping-sm_thumb lazysize lazyloaded"
-                                                            src="https://d.newsweek.com/en/full/1651527/ted-cruz-senator-texas-amy-coney-barrettgetty.jpg?w=95&amp;h=95&amp;f=8c85e346d6dfd1d0b90352198010548f">
-                                                    </picture>
-                                                </a></div>
-                                            <h4><a
-                                                    href="#">Women
-                                                    Thank Planned Parenthood After Ted Cruz's Birth Control Comments</a>
-                                            </h4>
-                                            <div class="summary">Oscar-winning actress Patricia Arquette was among those
-                                                to share their story.</div>
-                                        </article>
+                                                                src="https://d.newsweek.com/en/full/1651527/ted-cruz-senator-texas-amy-coney-barrettgetty.jpg?w=95&amp;h=95&amp;f=8c85e346d6dfd1d0b90352198010548f">
+                                                        </picture>
+                                                    </a></div>
+                                                <h4><a
+                                                        href="#">Women
+                                                        Thank Planned Parenthood After Ted Cruz's Birth Control Comments</a>
+                                                </h4>
+                                                <div class="summary">Oscar-winning actress Patricia Arquette was among those
+                                                    to share their story.</div>
+                                            </article>
+                                        </section>
                                     </div>
                                 </div>
-                            </div>
+                            </section>
 
                             <!-- end more stories -->
 
@@ -617,11 +598,7 @@
             </section>
 
 
-            <section class="col-12 col-lg-3 order-3">
-                <div>
-                    DEBATE
-                </div>
-
+            <section class="col-12 col-lg-4 order-3">                
                 <div>
                     <div>
                         <div class="the-debate">
@@ -632,11 +609,10 @@
                                     <div class="flex-xs ai-c">
                                         <div class="fn image headshot order-1">
                                             <a href="#">
-                                                <picture width="63" height="63">
-                                                    <img data-src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&amp;h=150&amp;f=890e9e80b6653bf527efb8506fb2601b"
+                                                <picture>
+                                                    <img 
                                                         alt="Claire Finkelstein and Richard  W. Painter 2"
-                                                        title="Claire Finkelstein and Richard  W. Painter 2" width="150"
-                                                        height="150" class="lazyloaded"
+                                                        title="Claire Finkelstein and Richard  W. Painter 2"
                                                         src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&amp;h=150&amp;f=890e9e80b6653bf527efb8506fb2601b">
                                                 </picture>
                                             </a></div>
@@ -660,10 +636,9 @@
                                         <div class="fn image headshot order-2">
                                             <a
                                                 href="/supreme-court-nominations-all-that-counts-constitution-opinion-1533325">
-                                                <picture width="63>
-                                                    <img data-src="https://d.newsweek.com/en/full/1639701/andrew-c-mccarthy.png?w=150&amp;h=150&amp;f=3e552338567abfe5626df5a9715e8d4f"
-                                                        alt="Andrew C. McCarthy" title="Andrew C. McCarthy" width="150"
-                                                        height="150" class="lazyloaded"
+                                                <picture>
+                                                    <img 
+                                                        alt="Andrew C. McCarthy" title="Andrew C. McCarthy" 
                                                         src="https://d.newsweek.com/en/full/1639701/andrew-c-mccarthy.png?w=150&amp;h=150&amp;f=3e552338567abfe5626df5a9715e8d4f">
                                                 </picture>
                                             </a></div>
@@ -689,8 +664,8 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63>
-                                                        <img alt="Tom Wolf" title="Tom Wolf" width="63" height="63"
+                                                    <picture>
+                                                        <img alt="Tom Wolf" title="Tom Wolf" 
                                                             src="https://d.newsweek.com/en/full/1650676/tom-wolf.png?w=63&amp;h=63&amp;f=69ff797df15ff19f5e5109cc128257ae">
                                                     </picture>
                                                 </a></div>
@@ -704,9 +679,8 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63>
-                                                        <img alt="Robert Walker" title="Robert Walker" width="63"
-                                                            height="63"
+                                                    <picture>
+                                                        <img alt="Robert Walker" title="Robert Walker" 
                                                             src="https://d.newsweek.com/en/full/106462/robert-walker.png?w=63&amp;h=63&amp;f=32ea83f1b038fbd9ed3672a1db3ffff0">
                                                     </picture>
                                                 </a></div>
@@ -720,9 +694,8 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63>
-                                                        <img alt="Irving Roth" title="Irving Roth" width="63"
-                                                            height="63"
+                                                    <picture>
+                                                        <img alt="Irving Roth" title="Irving Roth" 
                                                             src="https://d.newsweek.com/en/full/1649213/irving-roth.png?w=63&amp;h=63&amp;f=be1809437c213ef560efe8ec3dc8c94f">
                                                     </picture>
                                                 </a></div>
@@ -737,9 +710,8 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63>
-                                                        <img alt="John Adams" title="John Adams" width="63" height="63"
-                                                            class="lazyloaded"
+                                                    <picture>
+                                                        <img alt="John Adams" title="John Adams"
                                                             src="https://d.newsweek.com/en/full/1649253/john-adams.png?w=63&amp;h=63&amp;f=351829d10cfd10e00b3d702321a4abb6">
                                                     </picture>
                                                 </a></div>
@@ -753,9 +725,8 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63>
+                                                    <picture>
                                                         <img alt="Lawrence Alexander" title="Lawrence Alexander"
-                                                            width="63" height="63" class="lazyloaded"
                                                             src="https://d.newsweek.com/en/full/1648329/lawrence-alexander.png?w=63&amp;h=63&amp;f=fbc7b1f979ba28ebf4e0446d6e40a1f4">
                                                     </picture>
                                                 </a></div>
@@ -769,9 +740,9 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63>
+                                                    <picture>
                                                         <img alt="Thomas L. Krannawitter, Ph.D."
-                                                            title="Thomas L. Krannawitter, Ph.D." width="63" height="63"
+                                                            title="Thomas L. Krannawitter, Ph.D."
                                                             src="https://d.newsweek.com/en/full/1649797/thomas-l-krannawitter-phd.png?w=63&amp;h=63&amp;f=5b63b3dcfdaf205136c522f15af8da9a">
                                                     </picture>
                                                 </a></div>
@@ -785,9 +756,8 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63>
-                                                        <img alt="Robert Reich" title="Robert Reich" width="63"
-                                                            height="63" class="lazyloaded" style="position: absolute;"
+                                                    <picture>
+                                                        <img alt="Robert Reich" title="Robert Reich" 
                                                             src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&amp;h=63&amp;f=297351a03eaa549128026042394c9580">
                                                     </picture>
                                                 </a></div>

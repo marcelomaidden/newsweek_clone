@@ -15,8 +15,12 @@ header {
 
 main {
     top: 100px;
-    height: 1000px;
-    position: relative;
+}
+
+.main-title,
+.block-title {
+    color: gray;
+    font-weight: bolder;
 }
 
 .image {
@@ -60,7 +64,7 @@ color: #000;
     color: white;
 }
  
-.fold:after {
+/* .fold:after {
     content: '';
     position: absolute;
     width: 5%; height: 10px;
@@ -69,7 +73,7 @@ color: #000;
     transform-origin: 54% 10;
     transform: rotate(45deg);
     z-index: 1;
-} 
+}  */
 
 .trending-topics  li a{
     color: #646262;
@@ -82,10 +86,17 @@ color: #000;
 picture img{
     width: 100%;
 }
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+}
 
 .culture-stories a {
     color: gray;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 @media (max-width: 768px) {
