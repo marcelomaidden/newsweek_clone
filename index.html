@@ -12,12 +12,12 @@
 </head>
 
 <body>
-    <header class="w-100 m-0">
-        <nav class="d-flex row w-100 align-items-end p-3 m-0 position-fixed">
-            <div class="d-none d-md-block col-md-2 text-white">
+    <header class="w-100">
+        <nav class="d-flex w-100 justify-content-between justify-content-lg-center align-items-md-end align-items-center pb-3 m-0 pr-2 position-fixed">
+            <div class="d-none d-lg-block col-lg-2 text-white">
                 Wed, Oct 14, 2020
             </div>
-            <div class="justify-xs-left col-7 d-flex justify-content-center">
+            <div class="justify-content-left col-7 d-flex justify-content-lg-center">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
                     style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
@@ -28,18 +28,25 @@
                     </g>
                 </svg>
             </div>
-            <div class="subscribe col-4 col-md-2">
-                <div class="row m-0">
-                    <div class="col-6">
+            <div class="subscribe d-flex col-5 col-lg-2 pr-4">
+                <div class="col-12 d-flex align-items-center">
+                    <div class="col d-block d-md-none p-1">
+                        <i class = "fa fa-user"></i>
+                    </div>
+                    <div class="d-none d-md-block col p-1">
                         <a href="#" class="font-weight-bolder text-uppercase">Login</a>
                     </div>
-                    <div class="col-6">
+                    <div class="col p-1">
                         <button type="button"
                             class="rounded-pill bg-warning text-uppercase font-weight-bolder px-3 pb-1 pt-1">
-                            Subscribe
+                            Subscribe >
                         </button>
                     </div>
+                    <div class="col d-block d-lg-none p-1">
+                        <i class = "fa fa-bars"></i>
+                    </div>
                 </div>
+                    
             </div>
         </nav>
         <div class="d-none d-lg-flex row navigation position-absolute bg-white w-100">
@@ -92,12 +99,12 @@
             </div>
         </div>
     </header>
-    <main class="d-flex container-fluid position-relative">
+    <main class="d-flex mt-0 pt-0 pt-md-5 mt-md-5 container-fluid position-relative">
         <div class="row">
             <section class="main-articles d-flex col-12 col-md-6 col-lg-8">
                 <div class="row">
                     <div class="d-flex flex-column flex-md-row col-12">
-                        <section class="col-12 col-lg-5 featured-stories order-2  order-md-1">
+                        <section class="col-12 col-lg-5 mt-3 mt-md-0 featured-stories order-2  order-md-1">
                             <div class = "main-title">
                                 FEATURED STORIES
                             </div>

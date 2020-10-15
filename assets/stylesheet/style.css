@@ -5,16 +5,47 @@ nav svg {
 
 nav {
     background-color: #f72210;
-    height: 110px;
+    height: 50px;
     z-index: 10;
 }
 
 header {
-    height: 150px;
+    height: 60px;    
+}    
+
+.subscribe {
+    z-index: 10;
+    color: rgb(189, 187, 187);
+    font-size: 100%;
 }
 
-main {
-    top: 100px;
+.subscribe i {
+    font-size: 1.5rem;
+}
+
+.subscribe button {
+    width: 120px;
+    height: 30px;
+    font-size: 10px;
+}
+
+@media (min-width: 1024px) {
+    header {
+        height: 140px;    
+    }    
+
+    nav {
+        height: 100px;
+    }
+
+    nav svg {
+        width: 55%;
+    }
+    .subscribe button {
+        width: 140px;
+        height: auto;
+        font-size: 15px;
+    }
 }
 
 .main-title,
@@ -56,24 +87,9 @@ color: #000;
     color: red !important;
 }
 
-.subscribe {
-    z-index: 10;
-}
-
 .subscribe a {
     color: white;
 }
- 
-/* .fold:after {
-    content: '';
-    position: absolute;
-    width: 5%; height: 10px;
-    top: 2px; right: 10px;
-    background: #f72210;
-    transform-origin: 54% 10;
-    transform: rotate(45deg);
-    z-index: 1;
-}  */
 
 .trending-topics  li a{
     color: #646262;
@@ -105,7 +121,7 @@ picture img{
     background-color: red;
     position: absolute;
     left: 65%;
-    top: -17px;
+    top: -27px;
 }
 
 .rotate2 {
@@ -113,12 +129,6 @@ picture img{
     background-color: red;
     position: absolute;
     right: -45px;
-    top: -6px;
+    top: -16px;
     width: 35%;
-}
-
-@media (max-width: 768px) {
-    .justify-xs-left {
-        justify-content: start;
-    }
 }
