@@ -1,3 +1,7 @@
+body {
+    font-family: "Roboto Condensed",sans-serif;
+}
+
 nav svg {
     width: 55%;
     fill: white;
@@ -46,6 +50,10 @@ header {
         height: auto;
         font-size: 15px;
     }
+    .summary {
+        font-size: 15px;
+        line-height: 20px;
+    }
 }
 
 .main-title,
@@ -59,9 +67,60 @@ header {
 }
 
 .category {
+    background: rgba(255, 255, 255, .9);
+}
+
+.culture-stories a {
+    color: gray;
+    text-decoration: none;
+    font: bold 14px "Roboto Condensed",sans-serif;
+}
+
+.tags {
+    background: rgb(199, 198, 198);
+    padding: 3px;
+}
+
+.tags a {
+    color: black;
+}
+
+.category, 
+.tags {
     position: absolute;
     bottom: 0;
-    background: rgba(255, 255, 255, .9);
+}
+
+.more-stories article {
+    border-top: 1px solid lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-articles h3 a,
+.main-articles h1 a,
+.main-articles h4 a {
+    color: black;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.main-articles h3 a:hover,
+.main-articles h1 a:hover,
+.main-articles h4 a:hover {
+    text-decoration: underline #f72210;
+}
+
+.main-articles h3 ,
+.main-articles h1 ,
+.main-articles h4 {
+    line-height: 80%;
+} 
+
+.more-stories h4 a {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bolder;
 }
 
 .category a {
@@ -107,12 +166,6 @@ picture img{
     position: sticky;
     top: 0;
     align-self: flex-start;
-}
-
-.culture-stories a {
-    color: gray;
-    text-decoration: none;
-    font-weight: bolder;
 }
 
 .rotate {
