@@ -99,6 +99,24 @@ picture img{
     font-weight: bolder;
 }
 
+.rotate {
+    transform: skewY(25deg);
+    color: red;
+    background-color: red;
+    position: absolute;
+    left: 65%;
+    top: -17px;
+}
+
+.rotate2 {
+    color: red;
+    background-color: red;
+    position: absolute;
+    right: -45px;
+    top: -6px;
+    width: 35%;
+}
+
 @media (max-width: 768px) {
     .justify-xs-left {
         justify-content: start;
