@@ -70,10 +70,28 @@ header {
     background: rgba(255, 255, 255, .9);
 }
 
-.culture-stories a {
+.culture-stories a,
+.block-title a {
     color: gray;
     text-decoration: none;
     font: bold 14px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+}
+
+.debate {
+    border-top: 4px solid rgb(180, 178, 178);
+    border-bottom: 4px solid rgb(180, 178, 178);
+}
+
+.the-debate img,
+.debate-opinion img {
+    width: auto;
+    height: 63px;
+}
+
+.headshot img {
+    position: relative;
+    left: -40px;
 }
 
 .tags {
