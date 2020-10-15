@@ -28,6 +28,12 @@ main {
     bottom: 0;
     background: rgba(255, 255, 255, .9);
 }
+
+.category a {
+    color: red;
+    font-weight: bolder;
+}
+
 .featured-stories img {
     width: 100%;
 }
@@ -66,7 +72,7 @@ color: #000;
 } 
 
 .trending-topics  li a{
-color: #646262;
+    color: #646262;
 }
 
 .top-story-img img{
@@ -75,6 +81,11 @@ color: #646262;
 
 picture img{
     width: 100%;
+}
+
+.culture-stories a {
+    color: gray;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {

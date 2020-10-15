@@ -42,7 +42,7 @@
                 </div>
             </div>
         </nav>
-        <div class="d-none d-md-flex row navigation position-absolute bg-white w-100">
+        <div class="d-none d-lg-flex row navigation position-absolute bg-white w-100">
             <div class="col-12 d-flex border-bottom border-gray">
                 <div class="col-12 d-flex">
                     <ul class="d-flex justify-content-between align-items-center list-unstyled w-100 fold">
@@ -88,13 +88,10 @@
     </header>
     <main class="d-flex container-fluid">
         <div class="row">
-
-            <section class="main-articles d-flex col-12 col-md-9">
-
+            <section class="main-articles d-flex col-12 col-md-6 col-lg-9">
                 <div class="row">
-
-                    <div class="d-flex flex-column flex-md-row col-12 border border-danger">
-                        <section class="col-12 col-md-4 featured-stories order-2  order-md-1">
+                    <div class="d-flex flex-column flex-md-row col-12">
+                        <section class="col-12 col-lg-4 featured-stories order-2  order-md-1">
                             <div>
                                 FEATURED STORIES
                             </div>
@@ -217,9 +214,9 @@
                                 </div>
                             </article>
                         </section>
-                        <section class="col-12 col-md-8  top-stories order-1 order-md-2">
+                        <section class="col-12 col-lg-8 top-stories order-1 order-md-2">
                             <div>
-                                TOP STORIES
+                                TOP STORY
                             </div>
 
                             <article class="d-flex flex-column">
@@ -245,23 +242,18 @@
 
 
                             </article>
-
-
                             <!-- add more content -->
-
-
-                            <div class="culture-stories order-2">
-                                <div class="block-title">
-                                    <a href="#">My Turn</a></div>
-                                <div class="culture-items flex-sm">
-                                    <div class="culture-item">
+                            <session class="d-flex flex-column culture-stories d-none d-md-block order-2">                                
+                                <div class="block-title text-uppercase pt-4 font-weight-bolder d-flex">
+                                    <a href="#">My Turn</a>
+                                </div>
+                                <div class="row culture-items">
+                                    <article class="culture-item col-md-4">
                                         <div class="image">
                                             <a href="#">
-                                                <picture height="397" class="mapping-mobile lazysize"
-                                                    style="padding-bottom: 100%;">
+                                                <picture class="mapping-mobile lazysize">
                                                     <img alt="Doctors, Black Doctors, Black Women "
                                                         title="Doctors, Black Doctors, Black Women " width="397"
-                                                        height="397" class="mapping-mobile lazysize lazyloaded"
                                                         src="https://d.newsweek.com/en/full/1651562/doctors-black-doctors-black-women.jpg?w=397&amp;h=397&amp;f=be740fb23f1221385ce261c2798ccf10">
                                                 </picture>
                                             </a></div>
@@ -271,14 +263,13 @@
                                                     a Black Doctor. I Feel the Weight of Representing My Community'</a>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="culture-item">
+                                    </article>
+                                    <article class="culture-item col-md-4">
                                         <div class="image">
                                             <a href="#">
-                                                <picture width="397" height="397" class="mapping-mobile lazysize">
+                                                <picture width="397" class="mapping-mobile lazysize">
                                                     <img alt="Chef, Cooking, TikTok, Pandemic, Coronavirus "
                                                         title="Chef, Cooking, TikTok, Pandemic, Coronavirus "
-                                                        height="397" class="mapping-mobile lazysize lazyloaded"
                                                         src="https://d.newsweek.com/en/full/1650275/chef-cooking-tiktok-pandemic-coronavirus.png?w=397&amp;h=397&amp;f=964832354f12008572a856f35699e101">
                                                 </picture>
                                             </a></div>
@@ -287,14 +278,13 @@
                                                 <a href="#">'I Was Laid Off in
                                                     March, Now I'm Making Money As A TikTok Cooking Star'</a></div>
                                         </div>
-                                    </div>
-                                    <div class="culture-item">
+                                    </article>
+                                    <article class="culture-item col-md-4">
                                         <div class="image">
                                             <a href="#">
-                                                <picture height="397" class="mapping-mobile lazysize">
+                                                <picture class="mapping-mobile lazysize">
                                                     <img alt="Love, romance, Italy, Romeo and Juliet, pandemic"
                                                         title="Love, romance, Italy, Romeo and Juliet, pandemic"
-                                                        height="397" class="mapping-mobile lazysize lazyloaded"
                                                         src="https://d.newsweek.com/en/full/1649546/love-romance-italy-romeo-juliet-pandemic.jpg?w=397&amp;h=397&amp;f=b43eff729a8e2cb0b2a31df40a151d77">
                                                 </picture>
                                             </a></div>
@@ -304,18 +294,20 @@
                                                     Fiancé and I Met Across Balconies in Verona, Home of Romeo and
                                                     Juliet'</a></div>
                                         </div>
-                                    </div>
+                                    </article>
                                 </div>
-                                <div class="block-title">
-                                    <a href="#">Culture &amp; Travel</a></div>
-                                <div class="culture-items flex-sm">
-                                    <div class="culture-item">
+
+                                <!-- culture and travel section -->
+
+                                <div class="block-title text-uppercase pt-4 font-weight-bolder d-flex">
+                                    <a href="#">Culture &amp; Travel</a>
+                                </div>
+                                <div class="row culture-items">
+                                    <article class="culture-item col-md-4">
                                         <div class="image">
                                             <a href="#">
-                                                <picture height="397" class="mapping-mobile lazysize">
+                                                <picture class="mapping-mobile lazysize">
                                                     <img alt="Singapore Airlines " title="Singapore Airlines "
-                                                        height="397" class="mapping-mobile lazysize lazyloaded"
-                                                        style="position: absolute;"
                                                         src="https://d.newsweek.com/en/full/1646134/singapore-airlines.jpg?w=397&amp;h=397&amp;f=cd1314e3605caada5183ae4917133d96">
                                                 </picture>
                                             </a>
@@ -323,17 +315,19 @@
                                         </div>
                                         <div class="info">
                                             <div class="title">
-                                                <a href="#">Missing
-                                                    Flying? Flights to Nowhere Take Off As a New Travel Trend</a></div>
+                                                <a href="#">
+                                                    Missing
+                                                    Flying? Flights to Nowhere Take Off As a New Travel Trend
+                                                </a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="culture-item">
+                                    </article>
+                                    <article class="culture-item col-md-4">
                                         <div class="image">
                                             <a href="#">
-                                                <picture height="397" class="mapping-mobile lazysize">
+                                                <picture class="mapping-mobile lazysize">
                                                     <img alt="100 best rock albums of all time, according to critics"
                                                         title="100 best rock albums of all time, according to critics"
-                                                        height="397" class="mapping-mobile lazysize lazyloaded"
                                                         src="https://d.newsweek.com/en/full/1645381/100-best-rock-albums-all-time-according-critics.png?w=397&amp;h=397&amp;f=4fac5a43a9d8890fa4ae6281e59ace15">
                                                 </picture>
                                             </a>
@@ -341,18 +335,18 @@
                                         </div>
                                         <div class="info">
                                             <div class="title">
-                                                <a href="#">100
-                                                    Best Rock Albums of All Time, According to Critics</a></div>
+                                                <a href="#">
+                                                    100 Best Rock Albums of All Time, According to Critics
+                                                </a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="culture-item">
+                                    </article>
+                                    <article class="culture-item col-md-4">
                                         <div class="image">
                                             <a href="#">
-                                                <picture height="397" class="mapping-mobile lazysize">
+                                                <picture class="mapping-mobile lazysize">
                                                     <img alt="CUL_Map_Wes Anderson_white cyclon_Banner "
-                                                        title="CUL_Map_Wes Anderson_white cyclon_Banner " width="397"
-                                                        height="397" class="mapping-mobile lazysize lazyloaded"
-                                                        style="position: absolute;"
+                                                        title="CUL_Map_Wes Anderson_white cyclon_Banner "
                                                         src="https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.jpg?w=397&amp;h=397&amp;l=57&amp;t=47&amp;f=e5942c36302659ac5aa06f4fe5a7f5f1">
                                                 </picture>
                                             </a>
@@ -365,77 +359,11 @@
                                                     an Escape Around the World With 'Accidentally Wes Anderson' </a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </article>
                                 </div>
-                            </div>
-
-
+                                <!-- end culture and travel section -->
+                            </session>
                             <!-- more content ends here -->
-
-                            <!-- culture and travel section -->
-
-                            <div class="block-title">
-                                <a href="#">Culture &amp; Travel</a></div>
-
-                            <div class="culture-items flex-sm">
-                                <div class="culture-item">
-                                    <div class="image">
-                                        <a href="#">
-                                            <picture height="397" class="mapping-mobile lazysize">
-                                                <img alt="Singapore Airlines " title="Singapore Airlines " height="397"
-                                                    class="mapping-mobile lazysize lazyloaded"
-                                                    src="https://d.newsweek.com/en/full/1646134/singapore-airlines.jpg?w=397&amp;h=397&amp;f=cd1314e3605caada5183ae4917133d96">
-                                            </picture>
-                                        </a>
-                                        <div class="tags"><a href="#" class="active">Travel</a></div>
-                                    </div>
-                                    <div class="info">
-                                        <div class="title">
-                                            <a href="#">Missing
-                                                Flying? Flights to Nowhere Take Off As a New Travel Trend</a></div>
-                                    </div>
-                                </div>
-                                <div class="culture-item">
-                                    <div class="image">
-                                        <a href="#">
-                                            <picture height="397" class="mapping-mobile lazysize">
-                                                <img alt="100 best rock albums of all time, according to critics"
-                                                    title="100 best rock albums of all time, according to critics"
-                                                    height="397" class="mapping-mobile lazysize lazyloaded"
-                                                    src="https://d.newsweek.com/en/full/1645381/100-best-rock-albums-all-time-according-critics.png?w=397&amp;h=397&amp;f=4fac5a43a9d8890fa4ae6281e59ace15">
-                                            </picture>
-                                        </a>
-                                        <div class="tags"><a href="#" class="active">Music</a></div>
-                                    </div>
-                                    <div class="info">
-                                        <div class="title">
-                                            <a href="#">100 Best
-                                                Rock Albums of All Time, According to Critics</a></div>
-                                    </div>
-                                </div>
-                                <div class="culture-item">
-                                    <div class="image">
-                                        <a href="#">
-                                            <picture width="397" height="397" class="mapping-mobile lazysize">
-                                                <img alt="CUL_Map_Wes Anderson_white cyclon_Banner "
-                                                    title="CUL_Map_Wes Anderson_white cyclon_Banner " height="397"
-                                                    class="mapping-mobile lazysize lazyloaded"
-                                                    style="position: absolute;"
-                                                    src="https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.jpg?w=397&amp;h=397&amp;l=57&amp;t=47&amp;f=e5942c36302659ac5aa06f4fe5a7f5f1">
-                                            </picture>
-                                        </a>
-                                        <div class="tags"><a href="#" class="active">Wes Anderson</a>
-                                        </div>
-                                    </div>
-                                    <div class="info">
-                                        <div class="title">
-                                            <a href="#">Plot
-                                                an Escape Around the World With 'Accidentally Wes Anderson' </a></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- end culture and travel section -->
 
                             <!-- start more stories -->
 
@@ -505,7 +433,7 @@
                                             <div class="image">
                                                 <a href="#">
                                                     <picture width="95" height="95" class="mapping-sm_thumb lazysize"
-                                                        style="padding-bottom: 100%;">
+>
                                                         <img
                                                             alt="space debris" title="space debris"
                                                             height="95" class="mapping-sm_thumb lazysize lazyloaded"
@@ -523,7 +451,7 @@
                                             <div class="image">
                                                 <a href="#">
                                                     <picture width="95" height="95" class="mapping-sm_thumb lazysize"
-                                                        style="padding-bottom: 100%;">
+>
                                                         <img
                                                             alt="Pete Buttigieg and His Husband, Chasten"
                                                             title="Pete Buttigieg and His Husband, Chasten" width="95"
@@ -562,7 +490,7 @@
                                             <div class="image">
                                                 <a href="#">
                                                     <picture width="95" height="95" class="mapping-sm_thumb lazysize"
-                                                        style="padding-bottom: 100%;">
+>
                                                        <img
                                                             alt="china qingdao covid-19 testing"
                                                             title="china qingdao covid-19 testing" width="95"
@@ -637,7 +565,7 @@
                                                 <a
                                                     href="#">
                                                     <picture width="95" height="95" class="mapping-sm_thumb lazysize"
-                                                        style="padding-bottom: 100%;">
+>
                                                         <img
                                                             alt="NYC Best Buy store mask sign 2020"
                                                             title="NYC Best Buy store mask sign 2020" width="95"
@@ -689,7 +617,7 @@
             </section>
 
 
-            <section class="col-12 col-md-3 border border-danger order-3">
+            <section class="col-12 col-lg-3 order-3">
                 <div>
                     DEBATE
                 </div>
@@ -732,7 +660,7 @@
                                         <div class="fn image headshot order-2">
                                             <a
                                                 href="/supreme-court-nominations-all-that-counts-constitution-opinion-1533325">
-                                                <picture width="63" height="63" style="padding-bottom: 100%;">
+                                                <picture width="63>
                                                     <img data-src="https://d.newsweek.com/en/full/1639701/andrew-c-mccarthy.png?w=150&amp;h=150&amp;f=3e552338567abfe5626df5a9715e8d4f"
                                                         alt="Andrew C. McCarthy" title="Andrew C. McCarthy" width="150"
                                                         height="150" class="lazyloaded"
@@ -761,7 +689,7 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63" height="63" style="padding-bottom: 100%;">
+                                                    <picture width="63>
                                                         <img alt="Tom Wolf" title="Tom Wolf" width="63" height="63"
                                                             src="https://d.newsweek.com/en/full/1650676/tom-wolf.png?w=63&amp;h=63&amp;f=69ff797df15ff19f5e5109cc128257ae">
                                                     </picture>
@@ -776,7 +704,7 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63" height="63" style="padding-bottom: 100%;">
+                                                    <picture width="63>
                                                         <img alt="Robert Walker" title="Robert Walker" width="63"
                                                             height="63"
                                                             src="https://d.newsweek.com/en/full/106462/robert-walker.png?w=63&amp;h=63&amp;f=32ea83f1b038fbd9ed3672a1db3ffff0">
@@ -792,7 +720,7 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63" height="63" style="padding-bottom: 100%;">
+                                                    <picture width="63>
                                                         <img alt="Irving Roth" title="Irving Roth" width="63"
                                                             height="63"
                                                             src="https://d.newsweek.com/en/full/1649213/irving-roth.png?w=63&amp;h=63&amp;f=be1809437c213ef560efe8ec3dc8c94f">
@@ -809,7 +737,7 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63" height="63" style="padding-bottom: 100%;">
+                                                    <picture width="63>
                                                         <img alt="John Adams" title="John Adams" width="63" height="63"
                                                             class="lazyloaded"
                                                             src="https://d.newsweek.com/en/full/1649253/john-adams.png?w=63&amp;h=63&amp;f=351829d10cfd10e00b3d702321a4abb6">
@@ -825,7 +753,7 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63" height="63" style="padding-bottom: 100%;">
+                                                    <picture width="63>
                                                         <img alt="Lawrence Alexander" title="Lawrence Alexander"
                                                             width="63" height="63" class="lazyloaded"
                                                             src="https://d.newsweek.com/en/full/1648329/lawrence-alexander.png?w=63&amp;h=63&amp;f=fbc7b1f979ba28ebf4e0446d6e40a1f4">
@@ -841,7 +769,7 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63" height="63" style="padding-bottom: 100%;">
+                                                    <picture width="63>
                                                         <img alt="Thomas L. Krannawitter, Ph.D."
                                                             title="Thomas L. Krannawitter, Ph.D." width="63" height="63"
                                                             src="https://d.newsweek.com/en/full/1649797/thomas-l-krannawitter-phd.png?w=63&amp;h=63&amp;f=5b63b3dcfdaf205136c522f15af8da9a">
@@ -857,7 +785,7 @@
                                         <li class="flex-xs">
                                             <div class="image headshot">
                                                 <a href="#">
-                                                    <picture width="63" height="63" style="padding-bottom: 100%;">
+                                                    <picture width="63>
                                                         <img alt="Robert Reich" title="Robert Reich" width="63"
                                                             height="63" class="lazyloaded" style="position: absolute;"
                                                             src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&amp;h=63&amp;f=297351a03eaa549128026042394c9580">
