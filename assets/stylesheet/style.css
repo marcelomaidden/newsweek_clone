@@ -60,6 +60,8 @@ header {
 .block-title {
     color: gray;
     font-weight: bolder;
+    padding-bottom: 3px;
+    font-size: 14px;
 }
 
 .image {
@@ -89,9 +91,30 @@ header {
     height: 63px;
 }
 
-.headshot img {
-    position: relative;
-    left: -40px;
+.debate-author {
+    color: #555;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.deco {
+    padding: 25px;
+}
+
+.c-vs {
+    background-color: black;
+    color: white;
+    border-radius: 80px;
+    padding: 5px;
+    left: 40%;
+    top: 8px;
+}
+
+.inline-b {
+    width: 100%;
+    height: 3px;
+    background-color: lightgray;
+    left: 0;
 }
 
 .tags {
@@ -117,15 +140,23 @@ header {
 
 .main-articles h3 a,
 .main-articles h1 a,
-.main-articles h4 a {
+.main-articles h4 a,
+.info a {
     color: black;
     font-weight: bolder;
+}
+
+.main-articles h3 a,
+.main-articles h1 a,
+.main-articles h4 a{
     font-size: 1.4rem;
 }
 
+
 .main-articles h3 a:hover,
 .main-articles h1 a:hover,
-.main-articles h4 a:hover {
+.main-articles h4 a:hover,
+.info a:hover {
     text-decoration: underline #f72210;
 }
 
@@ -139,6 +170,14 @@ header {
     font-size: 15px;
     line-height: 20px;
     font-weight: bolder;
+}
+
+.headshot img {
+    padding-right: 5px;
+}
+
+.opinion li {
+    border-top: 1px solid lightgray;
 }
 
 .category a {
