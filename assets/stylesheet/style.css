@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto Condensed",sans-serif;
+    overflow-x: hidden;
 }
 
 dl, ol, ul {
@@ -7,7 +8,7 @@ dl, ol, ul {
     margin-bottom: initial;
 }
 
-nav svg {
+.logo {
     width: 55%;
     fill: white;
 }
@@ -81,26 +82,62 @@ header {
     fill: #f72210;
 }
 
-@media screen and (min-width: 768px){
-.magazine picture img, .magazine picture img {
-   
-    height: 100%;
- 
+.container-search {
+    position: relative;
 }
+
+.search {
+    width: 100px;
+    border: none;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.container-search i {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: lightgray;
+}
+
+
+@media screen and (min-width: 768px){
+    .magazine picture img, .magazine picture img {
+    
+        height: 100%;
+    
+    }
 }
 
 @media (min-width: 1024px) {
     header {
         height: 140px;    
-    }    
+    }  
+
+    .rotate {
+            transform: skewY(25deg);
+            color: #f72210;;
+            background-color: #f72210;;
+            position: absolute;
+            right: 13%;
+            top: -27px;
+    }
+        
+    .rotate2 {
+        color: #f72210;;
+        background-color: #f72210;;
+        position: absolute;
+        right: -40%;
+        top: -16px;
+        width: 54%;
+    }
 
     nav {
         height: 100px;
     }
 
-    nav svg {
-        width: 55%;
-    }
     .subscribe button {
         width: 140px;
         height: auto;
@@ -286,22 +323,4 @@ picture img{
     position: sticky;
     top: 0;
     align-self: flex-start;
-}
-
-.rotate {
-    transform: skewY(25deg);
-    color: red;
-    background-color: red;
-    position: absolute;
-    left: 65%;
-    top: -27px;
-}
-
-.rotate2 {
-    color: red;
-    background-color: red;
-    position: absolute;
-    right: -45px;
-    top: -16px;
-    width: 35%;
 }
