@@ -116,12 +116,19 @@ header {
     color: lightgray;
 }
 
-
 @media screen and (min-width: 768px){
     .magazine picture img, .magazine picture img {
     
         height: 100%;
     
+    }
+
+    .brand {
+        width: 25%;
+    }
+
+    .input-group>.form-control {
+        width: 75%;
     }
 }
 
