@@ -13,6 +13,10 @@ dl, ol, ul {
     fill: white;
 }
 
+.sponsor img {
+    width: 100%;
+}
+
 nav {
     background-color: #f72210;
     height: 50px;
@@ -169,7 +173,40 @@ header {
 
 .category {
     background: rgba(255, 255, 255, .9);
-    z-index: 100;
+}
+
+.newsletter-signup {
+    max-width: 300px;
+    margin: 30px auto 30px;
+    border: 1px solid #e5e5e5;
+    background-color: #f4f5f6;
+    padding: 20px;
+}
+
+.newsletter-signup input {
+    border: 1px solid lightgray;
+    width: 97%;
+    font-size: 15px;
+}
+
+.newsletter-signup input:focus {
+    outline: none;
+}
+
+.newsletter-signup input[type=submit] {
+    background-color: #f61602;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.n-title {
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 1.5;
+    color: #212529;
 }
 
 .culture-stories a,
@@ -230,6 +267,21 @@ header {
 .tags {
     position: absolute;
     bottom: 0;
+}
+
+aside h3 {
+    font-size: 20px;
+    padding: 10px 10px 5px 10px;
+}
+
+.sponsor .category {
+    color: #3581f4;
+}
+
+.sponsor .summary {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
 }
 
 .more-stories article {
