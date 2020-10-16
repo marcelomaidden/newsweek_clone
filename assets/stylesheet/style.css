@@ -78,6 +78,16 @@ header {
     left: 80px;
 }
 
+.subscribe-block .img-1 {
+    left: 100px;
+    top: 30px;
+    z-index: 2;
+}
+
+.subscribe-block .card {
+    height: 325px;
+}
+
 .start-5-advert{
     min-height: 200px;
 }
@@ -293,7 +303,10 @@ aside h3 {
 .main-articles h3 a,
 .main-articles h1 a,
 .main-articles h4 a,
-.info a {
+.info a,
+.section-picks a,
+.article-link a,
+.block-nw a {
     color: black;
     font-weight: bolder;
 }
@@ -308,7 +321,10 @@ aside h3 {
 .main-articles h3 a:hover,
 .main-articles h1 a:hover,
 .main-articles h4 a:hover,
-.info a:hover {
+.info a:hover,
+.section-picks a:hover,
+.article-link:hover,
+.block-nw a:hover {
     text-decoration: underline #f72210;
 }
 
