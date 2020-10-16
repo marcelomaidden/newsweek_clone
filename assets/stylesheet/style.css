@@ -3,6 +3,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  color: #000;
+}
+
 dl,
 ol,
 ul {
@@ -13,6 +17,10 @@ ul {
 .logo {
   width: 55%;
   fill: white;
+}
+
+picture img {
+  width: 100%;
 }
 
 .sponsor img {
@@ -68,11 +76,6 @@ header {
   height: 228px;
 }
 
-.subscribe-block .mag-thumb {
-  width: 170px;
-  height: 228px;
-}
-
 .subscribe-block .mag-thumb.current {
   position: absolute;
   top: 13px;
@@ -118,7 +121,6 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-  .magazine picture img,
   .magazine picture img {
     height: 100%;
   }
@@ -170,7 +172,6 @@ header {
     line-height: 20px;
   }
 
-  .feature2 picture img,
   .feature2 picture img {
     height: 100%;
   }
@@ -307,13 +308,22 @@ aside h3 {
   padding-bottom: 20px;
 }
 
-.main-articles h3 a,
-.main-articles h1 a,
-.main-articles h4 a,
+.category a {
+  color: red;
+  font-weight: bolder;
+}
+
+.subscribe a {
+  color: white;
+}
+
 .info a,
 .section-picks a,
 .article-link a,
-.block-nw a {
+.block-nw a,
+.main-articles h3 a,
+.main-articles h1 a,
+.main-articles h4 a {
   color: black;
   font-weight: bolder;
 }
@@ -324,14 +334,29 @@ aside h3 {
   font-size: 1.4rem;
 }
 
-.main-articles h3 a:hover,
-.main-articles h1 a:hover,
-.main-articles h4 a:hover,
+.more-stories h4 a {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: bolder;
+}
+
+.trending-topics li a {
+  color: #646262;
+}
+
 .info a:hover,
 .section-picks a:hover,
 .article-link:hover,
-.block-nw a:hover {
+.block-nw a:hover,
+.main-articles h3 a:hover,
+.main-articles h1 a:hover,
+.main-articles h4 a:hover {
   text-decoration: underline #f72210;
+}
+
+.navigation li a:hover {
+  text-decoration: none;
+  color: red;
 }
 
 .main-articles h3,
@@ -340,23 +365,12 @@ aside h3 {
   line-height: 80%;
 }
 
-.more-stories h4 a {
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: bolder;
-}
-
 .headshot img {
   padding-right: 5px;
 }
 
 .opinion li {
   border-top: 1px solid lightgray;
-}
-
-.category a {
-  color: red;
-  font-weight: bolder;
 }
 
 .featured-stories img {
@@ -368,28 +382,7 @@ aside h3 {
   top: 110px;
 }
 
-a {
-  color: #000;
-}
-
-.navigation li a:hover {
-  text-decoration: none;
-  color: red !important;
-}
-
-.subscribe a {
-  color: white;
-}
-
-.trending-topics li a {
-  color: #646262;
-}
-
 .top-story-img img {
-  width: 100%;
-}
-
-picture img {
   width: 100%;
 }
 
