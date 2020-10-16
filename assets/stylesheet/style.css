@@ -81,6 +81,14 @@ header {
     fill: #f72210;
 }
 
+@media screen and (min-width: 768px){
+.magazine picture img, .magazine picture img {
+   
+    height: 100%;
+ 
+}
+}
+
 @media (min-width: 1024px) {
     header {
         height: 140px;    
@@ -101,6 +109,12 @@ header {
     .summary {
         font-size: 15px;
         line-height: 20px;
+    }
+
+    .feature2 picture img, .feature2 picture img {
+   
+        height: 100%;
+     
     }
 }
 

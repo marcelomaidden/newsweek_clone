@@ -15,9 +15,11 @@
 </head>
 
 <body>
-    <header class="w-100">
+
+    <header class="container-fluid w-100">
+        
         <nav
-            class="d-flex w-100 justify-content-between justify-content-lg-center align-items-md-end align-items-center pb-3 m-0 pr-2 position-fixed">
+            class="d-flex w-100 justify-content-between justify-content-lg-center align-items-md-end align-items-center pb-3 m-0 pr-2 position-fixed row">
             <div class="d-none d-lg-block col-lg-2 text-white">
                 Wed, Oct 14, 2020
             </div>
@@ -33,20 +35,20 @@
                 </svg>
             </div>
             <div class="subscribe d-flex col-5 col-lg-2 pr-4">
-                <div class="col-12 d-flex align-items-center">
-                    <div class="col d-block d-md-none p-1">
+                <div class="d-flex col-12 align-items-center">
+                    <div class="col border d-block d-md-none p-1">
                         <i class="fa fa-user"></i>
                     </div>
-                    <div class="d-none d-md-block col p-1">
+                    <div class="d-none d-md-block col border p-1">
                         <a href="#" class="font-weight-bolder text-uppercase">Login</a>
                     </div>
-                    <div class="col p-1">
+                    <div class="col border p-1">
                         <button type="button"
                             class="rounded-pill bg-warning text-uppercase font-weight-bolder px-3 pb-1 pt-1">
-                            Subscribe >
+                            Subscribe
                         </button>
                     </div>
-                    <div class="col d-block d-lg-none p-1">
+                    <div class="col border d-block d-lg-none p-1">
                         <i class="fa fa-bars"></i>
                     </div>
                 </div>
@@ -102,7 +104,10 @@
                 </ul>
             </div>
         </div>
+   
     </header>
+
+
     <main class="d-flex flex-column mt-0 pt-0 pt-md-5 mt-md-5 container-fluid position-relative">
         <div class="row">
             <section class="main-articles d-flex col-12 col-md-6 col-lg-9 m-0">
@@ -1172,7 +1177,7 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-12 mb-3">
+                                <div class="col-12 col-md-3 mb-3">
                                     <div class="wrap position-relative">
                                         <div class="image">
                                             <a href="#">
@@ -1188,9 +1193,9 @@
                                     </div>
                                     <a href="#" class="mt-3 font-weight-bolder d-flex justify-content-center align-items-center text-uppercase" ><span>See All Features</span> <i class="fa fa-chevron-right"></i></a>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-9">
                                     <div class="row">
-                                        <article class="col-12">
+                                        <article class="col-12 col-md-4">
                                             <div class="image">
                                                 <a href="#">
                                                     <picture height="311" class="mapping-tablet lazysize">
@@ -1200,14 +1205,14 @@
                                                     </picture>
                                                     <span class="overlay article-overlay"></span>
                                                 </a></div>
-                                            <div class="mt-3"><span class="bg-danger text-white text-uppercase p-2 font-weight-bolder d-inline-flex justify-content-center align-items-center">Cover</span> <span
+                                            <div class="mt-3 d-flex justify-content-start align-items-center"><span class="bg-danger text-white text-uppercase p-2 font-weight-bolder d-inline-flex justify-content-center align-items-center">Cover</span> <span
                                                     class="cat"><a href="#" class="text-danger font-weight-bolder text-uppercase">U.S.</a></span></div>
                                             <h5 class="mt-2 text-2 font-weight-bolder"><a href="#" class="article-link">Biden Should Promise to Pack the
                                                     Supreme Court
                                                     to Save It From Partisan War<span
                                                         class="overlay article-overlay"></span></a></h5>
                                         </article>
-                                        <article class="col-12">
+                                        <article class="col-12 col-md-4">
                                             <div class="image">
                                                 <a href="#">
                                                     <picture  height="311" class="mapping-tablet lazysize">
@@ -1217,13 +1222,13 @@
                                                     </picture>
                                                     <span class="overlay article-overlay"></span>
                                                 </a></div>
-                                            <div class="mt-3"><span class="bg-danger text-white text-uppercase p-2 font-weight-bolder d-inline-flex justify-content-center align-items-center">Features</span> <span
+                                            <div class="mt-3 d-flex justify-content-start align-items-center"><span class="bg-danger text-white text-uppercase p-2 font-weight-bolder d-inline-flex justify-content-center align-items-center">Features</span> <span
                                                     class="cat"><a href="#" class="text-danger font-weight-bolder text-uppercase">Politics</a></span></div>
                                             <h5 class="mt-2 text-2 font-weight-bolder"><a href="#" class="article-link">If Elected, Who Would Joe Biden Pick
                                                     for the
                                                     Supreme Court?<span class="overlay article-overlay"></span></a></h5>
                                         </article>
-                                        <article class="col-12">
+                                        <article class="col-12 col-md-4">
                                             <div class="image">
                                                 <a href="#">
                                                     <picture height="311" class="mapping-tablet lazysize">
@@ -1235,7 +1240,7 @@
                                                     </picture>
                                                     <span class="overlay article-overlay"></span>
                                                 </a></div>
-                                            <div class="mt-3"><span class="bg-danger text-white text-uppercase p-2 font-weight-bolder d-inline-flex justify-content-center align-items-center">Features</span> <span
+                                            <div class="mt-3 d-flex justify-content-start align-items-center"><span class="bg-danger text-white text-uppercase p-2 font-weight-bolder d-inline-flex justify-content-center align-items-center">Features</span> <span
                                                     class="cat"><a href="#" class="text-danger font-weight-bolder text-uppercase">Opinion</a></span></div>
                                             <h5 class="mt-2 text-2 font-weight-bolder"><a href="#" class="article-link">The Conservative Legacy of Ruth Bader
                                                     Ginsburg
@@ -1245,7 +1250,7 @@
                                 </div>
                             </div>
                             <div class="row ">
-                                <article class="col-12">
+                                <article class="col-12 col-md-3">
                                     <div class="image">
                                         <a href="#">
                                             <picture height="311" class="mapping-tablet lazysize">
@@ -1256,15 +1261,15 @@
                                             </picture>
                                             <span class="overlay article-overlay"></span>
                                         </a></div>
-                                    <div class="mt-3"><span class="bg-danger text-white text-uppercase p-2 font-weight-bolder d-inline-flex justify-content-center align-items-center">Periscope</span> <span class="cat"><a
+                                    <div class="mt-3 d-flex justify-content-start align-items-center"><span class="bg-danger text-white text-uppercase p-2 font-weight-bolder d-inline-flex justify-content-center align-items-center">Periscope</span> <span class="cat"><a
                                                 href="#" class="text-danger font-weight-bolder text-uppercase">Culture</a></span></div>
-                                    <h5 class="mt-2 text-2 font-weight-bolder"><a href="/joe-biden-tries-close-deal-latino-voters-florida-remains-headache-1533890"
+                                    <h5 class="mt-2 text-2 font-weight-bolder"><a href="#"
                                             class="article-link">Biden Tries to Close the Deal with Latinos, As Florida
                                             Remains A Headache<span class="overlay article-overlay"></span></a></h5>
                                 </article>
-                                <article class="col-12">
+                                <article class="col-12 col-md-3">
                                     <div class="image">
-                                        <a href="/2020/10/16/accidentally-wes-anderson-around-world-1534642.html">
+                                        <a href="#">
                                             <picture width="466" height="311" class="mapping-tablet lazysize">
                                                 <img alt="CUL_Map_Wes Anderson_white cyclon_Banner "
                                                     title="CUL_Map_Wes Anderson_white cyclon_Banner " height="311"
@@ -1273,12 +1278,12 @@
                                             </picture>
                                             <span class="overlay article-overlay"></span>
                                         </a></div>
-                                    <div class="mt-3"><span class="bg-danger text-white text-uppercase p-2 font-weight-bolder d-inline-flex justify-content-center align-items-center">Downtime</span> <span class="cat"><a
+                                    <div class="mt-3 d-flex justify-content-start align-items-center"><span class="bg-danger text-white text-uppercase p-2 font-weight-bolder d-inline-flex justify-content-center align-items-center">Downtime</span> <span class="cat"><a
                                                 href="#" class="text-danger font-weight-bolder text-uppercase">Culture</a></span></div>
                                     <h5 class="mt-2 text-2 font-weight-bolder"><a href="#" class="article-link">'Accidentally Wes Anderson' Around the World
                                             <span class="overlay article-overlay"></span></a></h5>
                                 </article>
-                                <article class="col-12">
+                                <article class="col-12 col-md-3">
                                     <div class="image">
                                         <a href="#">
                                             <picture height="311" class="mapping-tablet lazysize">
@@ -1288,13 +1293,13 @@
                                             </picture>
                                             <span class="overlay article-overlay"></span>
                                         </a></div>
-                                    <div class="mt-3"><span class="bg-danger text-white text-uppercase p-2 font-weight-bolder d-inline-flex justify-content-center align-items-center">Downtime</span> <span class="cat"><a
+                                    <div class="mt-3 d-flex justify-content-start align-items-center"><span class="bg-danger text-white text-uppercase p-2 font-weight-bolder d-inline-flex justify-content-center align-items-center">Downtime</span> <span class="cat"><a
                                                 href="#" class="text-danger font-weight-bolder text-uppercase">Culture</a></span></div>
                                     <h5 class="mt-2 text-2 font-weight-bolder"><a href="#" class="article-link">Choose Electric: Ewan McGregor Rides Into the
                                             Future in
                                             'Long Way Up'<span class="overlay article-overlay"></span></a></h5>
                                 </article>
-                                <article class="col-12">
+                                <article class="col-12 col-md-3">
                                     <div class="big-shots" data-id="front_page" revision=""
                                         >
                                         <div class="overlay"></div>
@@ -1327,7 +1332,7 @@
                         <div class="n-title d-flex justify-content-center align-items-center font-weight-bolder p-4"><span class="icon-n"></span>
                             EDITOR'S PICK</div>
                         <div class="feature2 row">
-                            <article class="col-12">
+                            <article class="col-12 col-md-6 col-lg-3">
                                 <div class="wrap position-relative">
                                     <div class="category position-absolute bottom-0 p-2 text-uppercase"><a href="#">U.S.</a></div>
                                     <div class="image">
@@ -1345,7 +1350,7 @@
                                     questioned Judge Barrett on Tuesday, during the second of four confirmation
                                     hearings.</div>
                             </article>
-                            <article class="col-12">
+                            <article class="col-12 col-md-6 col-lg-3">
                                 <div class="wrap  position-relative">
                                     <div class="category  bottom-0 p-2 text-uppercase"><a href="#">Politics</a></div>
                                     <div class="image">
@@ -1363,7 +1368,7 @@
                                 <div class="summary text-1 mb-3">One election forecaster suggested the party could flip the Senate,
                                     keep the House, and have Joe Biden in the White House.</div>
                             </article>
-                            <article class="col-12">
+                            <article class="col-12 col-md-6 col-lg-3">
                                 <div class="wrap position-relative">
                                     <div class="category bottom-0 p-2 text-uppercase"><a href="#">Politics</a></div>
                                     <div class="image">
@@ -1381,7 +1386,7 @@
                                     Iowa, Ohio and Nebraska. The president is targeting blocs of voters in states that
                                     could tip the election result.</div>
                             </article>
-                            <article class="col-12">
+                            <article class="col-12 col-md-6 col-lg-3">
                                 <div class="wrap position-relative">
                                     <div class="category bottom-0 p-2 text-uppercase"><a href="#">Politics</a></div>
                                     <div class="image">
@@ -1398,7 +1403,7 @@
                                 <div class="summary text-1 mb-3">The president visited Florida for a rally earlier this week, where
                                     he insisted he is on track to win re-election in November.</div>
                             </article>
-                            <article class="col-12">
+                            <article class="col-12 col-md-6 col-lg-3">
                                 <div class="wrap position-relative">
                                     <div class="category bottom-0 p-2 text-uppercase"><a href="#">U.S.</a></div>
                                     <div class="image">
@@ -1419,7 +1424,7 @@
                                     justice, and more—not fast track a nominee who threatens our health and our rights,"
                                     one organization told Newsweek.</div>
                             </article>
-                            <article class="col-12">
+                            <article class="col-12 col-md-6 col-lg-3">
                                 <div class="wrap position-relative">
                                     <div class="category bottom-0 p-2 text-uppercase"><a href="#">World</a></div>
                                     <div class="image">
@@ -1437,7 +1442,7 @@
                                 <div class="summary text-1 mb-3">The winning entry of a tigress hugging an ancient tree was
                                     described by judges as a scene like no other.</div>
                             </article>
-                            <article class="col-12">
+                            <article class="col-12 col-md-6 col-lg-3">
                                 <div class="wrap position-relative">
                                     <div class="category bottom-0 p-2 text-uppercase"><a href="#">Politics</a></div>
                                     <div class="image">
@@ -1455,7 +1460,7 @@
                                 <div class="summary text-1 mb-3">Klepper interviewed supporters at a recent Trump rally and was
                                     amused by one man who was making money as a debt collector.</div>
                             </article>
-                            <article class="col-12">
+                            <article class="col-12 col-md-6 col-lg-3">
                                 <div class="wrap position-relative">
                                     <div class="category bottom-0 p-2 text-uppercase"><a href="#">Tech &amp; Science</a></div>
                                     <div class="image">
@@ -1475,13 +1480,13 @@
                         </div>
                     </div>
                 </div>
-                <div id="block-nw-section-picks" class="d-md-block d-none">
+                <div id="block-nw-section-picks" class="d-lg-block d-none">
                     <div class="content">
                         <div class="section-picks">
                             <div class="block-title">
                                 <a href="#">U.S.</a></div>
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <article>
                                         <div class="image">
                                             <a href="#">
@@ -1495,7 +1500,7 @@
                                                 Attacks Child in Alaska</a></h4>
                                     </article>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <article>
                                         <div class="image">
                                             <a href="#">
@@ -1511,11 +1516,11 @@
                                         </h4>
                                     </article>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <div class="feature2 subfeature2">
                                         <ul class="list-unstyled">
-                                            <li class="flex-xs">
-                                                <div class="image">
+                                            <li class="row border-bottom pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture height="265" class="mapping-sm_thumb lazysize">
                                                             <img alt="Joe Biden in Michigan"
@@ -1524,12 +1529,12 @@
                                                                 src="https://d.newsweek.com/en/full/1651687/joe-biden-michigan.jpg?w=397&amp;h=265&amp;f=962bf983e01b0af3d3cd215c564898ca">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">Biden
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">Biden
                                                         Leads Trump by 9 Points in Michigan; 9% of Voters Still Up for
                                                         Grabs</a></div>
                                             </li>
-                                            <li class="flex-xs">
-                                                <div class="image">
+                                            <li class="row border-bottom mt-4 pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture height="95" class="mapping-sm_thumb lazysize">
                                                             <img alt="Lindsey Graham 10/13" title="Lindsey Graham 10/13"
@@ -1537,12 +1542,12 @@
                                                                 src="https://d.newsweek.com/en/full/1651685/lindsey-graham-10-13.jpg?w=95&amp;h=95&amp;f=6ccc075d27c6b1561c483605f0f6126a">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">What
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">What
                                                         Polls Say About Lindsey Graham vs Jaime Harrison 3 Weeks To
                                                         Election</a></div>
                                             </li>
-                                            <li class="flex-xs">
-                                                <div class="image">
+                                            <li class="row border-bottom mt-4 pb-4">
+                                                <div class="image col-md-3">
                                                     <a
                                                         href="#">
                                                         <picture height="95" class="mapping-sm_thumb lazysize">
@@ -1552,7 +1557,7 @@
                                                                 src="https://d.newsweek.com/en/full/1651675/chicago-police.jpg?w=95&amp;h=95&amp;f=102b812a8b398b07310f6475ff2d0b2e">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a
                                                         href="#">Chicago
                                                         Homicides Pass 600, on Pace to Have Deadliest Year in Two
                                                         Decades</a></div>
@@ -1564,7 +1569,7 @@
                             <div class="block-title">
                                 <a href="#">World</a></div>
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <article>
                                         <div class="image">
                                             <a href="#">
@@ -1578,7 +1583,7 @@
                                                 Deputy Leader Shuts Down American COVID Denier in Viral Video</a></h4>
                                     </article>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <article>
                                         <div class="image">
                                             <a href="#">
@@ -1595,11 +1600,11 @@
                                         </h4>
                                     </article>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-12 col-md-4">
                                     <div class="feature2 subfeature2">
                                         <ul class="list-unstyled">
-                                            <li class="">
-                                                <div class="image">
+                                            <li class="row border-bottom  pb-4">
+                                                <div class="image col-md-3">
                                                     <a
                                                         href="/russia-china-biggest-threats-uk-new-mi5-intelligence-boss-1539042">
                                                         <picture height="265" class="mapping-sm_thumb lazysize">
@@ -1609,25 +1614,25 @@
                                                                 src="https://d.newsweek.com/en/full/1651683/vladimir-putin.jpg?w=397&amp;h=265&amp;f=1b351ad6cc9a0ebfd64bab88e1789ab6">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a
+                                                <div class="info col-md-9  d-flex justify-content-center align-items-center"><a
                                                         href="/russia-china-biggest-threats-uk-new-mi5-intelligence-boss-1539042">Russia
                                                         and China Biggest Threats to U.K., New MI5 Intelligence Boss
                                                         Says</a></div>
                                             </li>
-                                            <li class="">
-                                                <div class="image">
-                                                    <a href="/bridesmaid-kisses-groom-china-wedding-1538971">
+                                            <li class="row border-bottom mt-4 pb-4">
+                                                <div class="image col-md-3">
+                                                    <a href="#">
                                                         <picture height="95" class="mapping-sm_thumb lazysize">
                                                             <img alt="china wedding bride" title="china wedding bride"
                                                                 height="95" class="mapping-sm_thumb lazysize lazyloaded"
                                                                 src="https://d.newsweek.com/en/full/1651637/china-wedding-bride.jpg?w=95&amp;h=95&amp;f=4c91bb6ea36005123faa85605901c119">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">Bridesmaid
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">Bridesmaid
                                                         Kisses Groom Onstage in Front of Bride in Viral Video</a></div>
                                             </li>
-                                            <li class="">
-                                                <div class="image">
+                                            <li class="row border-bottom mt-4 pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture height="95" class="mapping-sm_thumb lazysize">
                                                             <img alt="Ronnie Phillips" title="Ronnie Phillips"
@@ -1635,7 +1640,7 @@
                                                                 src="https://d.newsweek.com/en/full/1651627/ronnie-phillips.jpg?w=95&amp;h=95&amp;f=16f97e194bc3b4db8c1c6ca31e56e3ad">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">Boy With Autism
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">Boy With Autism
                                                         'Left to Die' After Tricked to Drink Bleach, Reports Say</a>
                                                 </div>
                                             </li>
@@ -1646,7 +1651,7 @@
                             <div class="block-title">
                                 <a href="#">Business</a></div>
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <article>
                                         <div class="image">
                                             <a href="#">
@@ -1660,7 +1665,7 @@
                                                 Kareem Daniel? Former Disney Intern Given Top Job</a></h4>
                                     </article>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <article>
                                         <div class="image">
                                             <a href="#">
@@ -1675,25 +1680,26 @@
                                                 Trade Soars, Despite Trump Tariffs</a></h4>
                                     </article>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <div class="feature2 subfeature2">
                                         <ul class="list-unstyled">
-                                            <li class="">
-                                                <div class="image">
+                                            <li class="row border-bottom pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
-                                                        <pictureheight="265" class="mapping-sm_thumb lazysize">
+                                                        <picture height="265" class="mapping-sm_thumb lazysize">
                                                             <img alt="dennis gartman fox business stocks"
                                                                 title="dennis gartman fox business stocks" height="265"
                                                                 class="mapping-sm_thumb lazysize lazyloaded"
                                                                 src="https://d.newsweek.com/en/full/1649985/dennis-gartman-fox-business-stocks.jpg?w=397&amp;h=265&amp;f=38e9caebbd4751be6625151655bde2f0">
                                                             </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">Fox
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center">
+                                                    <a href="#">Fox
                                                         Business Panel Says Senate Gridlock Great for Stocks Nothing
                                                         Gets Done</a></div>
                                             </li>
-                                            <li class="">
-                                                <div class="image">
+                                            <li class="row border-bottom mt-4 pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture height="95" class="mapping-sm_thumb lazysize">
                                                             <img alt="Google Apple Facebook Amazon"
@@ -1702,12 +1708,12 @@
                                                                 src="https://d.newsweek.com/en/full/1649847/google-apple-facebook-amazon.jpg?w=95&amp;h=95&amp;f=d25be1158454af3ad16294c576fcd71d">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">Why
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">Why
                                                         Google, Facebook and Amazon Could Pay Billions More in Tax</a>
                                                 </div>
                                             </li>
-                                            <li class="flex-xs">
-                                                <div class="image">
+                                            <li class="row border-bottom mt-4 pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture height="95" class="mapping-sm_thumb lazysize">
                                                             <img alt="millennials money wealth disparity boomers"
@@ -1716,7 +1722,7 @@
                                                                 src="https://d.newsweek.com/en/full/1648405/millennials-money-wealth-disparity-boomers.jpg?w=95&amp;h=95&amp;f=4b58d0f11f9306011a87bfac620c9358">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">Millennials
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">Millennials
                                                         Have 4 Times Less Wealth Than Baby Boomers Did By Age 34</a>
                                                 </div>
                                             </li>
@@ -1727,7 +1733,7 @@
                             <div class="block-title">
                                 <a href="#">Tech &amp; Science</a></div>
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <article>
                                         <div class="image">
                                             <a href="#">
@@ -1741,7 +1747,7 @@
                                                 Dog Swimming in Ocean off Australian Coast</a></h4>
                                     </article>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <article>
                                         <div class="image">
                                             <a href="#">
@@ -1756,11 +1762,11 @@
                                                 HW-Q800T Soundbar Review: Stunning Soundbar for Streaming</a></h4>
                                     </article>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <div class="feature2 subfeature2">
                                         <ul class="list-unstyled">
-                                            <li class="">
-                                                <div class="image">
+                                            <li class="row border-bottom pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture height="265" class="mapping-sm_thumb lazysize">
                                                             <img alt="2020 Prime Day Deals Under $50 "
@@ -1769,11 +1775,11 @@
                                                                 src="https://d.newsweek.com/en/full/1651212/2020-prime-day-deals-under-50.jpg?w=397&amp;h=265&amp;f=62be3d2c666c3c91a10011e0bc17921e">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">Best
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">Best
                                                         Amazon Prime Day 2020 Deals Under $50</a></div>
                                             </li>
-                                            <li class="">
-                                                <div class="image">
+                                            <li class="row border-bottom mt-4 pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture height="95" class="mapping-sm_thumb lazysize">
                                                             <img alt="iPhone 12 Less Likely to Crack"
@@ -1782,12 +1788,12 @@
                                                                 src="https://d.newsweek.com/en/full/1651180/iphone-12-less-likely-crack.jpg?w=95&amp;h=95&amp;f=afc8ceb9943fe5607c2944b3801e81c1">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">iPhone 12 Four
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">iPhone 12 Four
                                                         Times Less Likely to Crack When Dropped, Apple Contends</a>
                                                 </div>
                                             </li>
-                                            <li class="">
-                                                <div class="image">
+                                            <li class="row border-bottom mt-4 pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture height="95" class="mapping-sm_thumb lazysize">
                                                             <img alt="Best 2020 Amazon Prime Day TV Deals"
@@ -1796,7 +1802,7 @@
                                                                 src="https://d.newsweek.com/en/full/1648818/best-2020-amazon-prime-day-tv-deals.jpg?w=95&amp;h=95&amp;f=83e912b38a0815c6fb6e6d8d6d2db29c">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">Amazon
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">Amazon
                                                         Prime Day 2020 Deals for TVs, Laptops, Toys and More</a></div>
                                             </li>
                                         </ul>
@@ -1806,7 +1812,7 @@
                             <div class="block-title">
                                 <a href="#">Culture</a></div>
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <article>
                                         <div class="image">
                                             <a href="#">
@@ -1821,7 +1827,7 @@
                                                 Chief'</a></h4>
                                     </article>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <article>
                                         <div class="image">
                                             <a href="#">
@@ -1836,11 +1842,11 @@
                                         </h4>
                                     </article>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <div class="feature2 subfeature2">
                                         <ul class="list-unstyled">
-                                            <li class="">
-                                                <div class="image">
+                                            <li class="row border-bottom pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture  height="265"
                                                             class="mapping-sm_thumb lazysize">
@@ -1850,12 +1856,12 @@
                                                                 src="https://d.newsweek.com/en/full/1651422/happy-birthday-ee-cummings.jpg?w=397&amp;h=265&amp;l=56&amp;t=17&amp;f=2d8d5cc4c0b8eb2a036e89ef1df3ae23">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">Happy
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">Happy
                                                         Birthday EE Cummings: 11 of His Most Memorable &amp; Romantic
                                                         Lines</a></div>
                                             </li>
-                                            <li class="">
-                                                <div class="image">
+                                            <li class="row border-bottom mt-4 pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture height="95" class="mapping-sm_thumb lazysize">
                                                             <img alt="the amazing race 2020 start date"
@@ -1864,11 +1870,11 @@
                                                                 src="https://d.newsweek.com/en/full/1651607/amazing-race-2020-start-date.jpg?w=95&amp;h=95&amp;f=25a80b990e312f10fd19128ee36d0eb4">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">When
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">When
                                                         'The Amazing Race' 2020 Starts and How to Watch Online</a></div>
                                             </li>
-                                            <li class="">
-                                                <div class="image">
+                                            <li class="row border-bottom mt-4 pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture height="95" class="mapping-sm_thumb lazysize">
                                                             <img alt="Meghan Markle at Admiralty House, Sydney, Australia"
@@ -1877,7 +1883,7 @@
                                                                 src="https://d.newsweek.com/en/full/1651604/meghan-markle-admiralty-house-sydney-australia.jpg?w=95&amp;h=95&amp;f=c62098e9956f91120537c147da23a90c">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">Meghan Markle
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">Meghan Markle
                                                         Fears Putting Archie At 'Risk' With Controversial Comments</a>
                                                 </div>
                                             </li>
@@ -1888,7 +1894,7 @@
                             <div class="block-title">
                                 <a href="/sports">Sports</a></div>
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <article>
                                         <div class="image">
                                             <a href="#">
@@ -1904,7 +1910,7 @@
                                                 RB</a></h4>
                                     </article>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <article>
                                         <div class="image">
                                             <a href="#">
@@ -1919,11 +1925,11 @@
                                                 Takes Shot at LeBron James with Cryptic Tweet Over NBA Titles</a></h4>
                                     </article>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-4">
                                     <div class="feature2 subfeature2">
                                         <ul class="list-unstyled">
-                                            <li class="flex-xs">
-                                                <div class="image">
+                                            <li class="row border-bottom pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture height="265" class="mapping-sm_thumb lazysize">
                                                             <img alt="Jose Altuve, Houston Astros"
@@ -1933,12 +1939,12 @@
                                                                 src="https://d.newsweek.com/en/full/1651491/jose-altuve-houston-astros.jpg?w=397&amp;h=265&amp;f=810f5cef2e7114283783434dcd2feefc">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">Does
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">Does
                                                         Jose Altuve Have the Yips? Errors Put Astros on Brink of
                                                         Elimination</a></div>
                                             </li>
-                                            <li class="">
-                                                <div class="image">
+                                            <li class="row border-bottom mt-4 pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture height="95" class="mapping-sm_thumb lazysize">
                                                             <img alt="Tennessee Titans" title="Tennessee Titans"
@@ -1946,12 +1952,12 @@
                                                                 src="https://d.newsweek.com/en/full/1651476/tennessee-titans.jpg?w=95&amp;h=95&amp;f=2b6bacb28e38867addb373406c2aa733">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a
-                                                        href="/tennessee-titans-best-afc-better-believe-it-now-1538911">Tennessee
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a
+                                                        href="#">Tennessee
                                                         Titans the Best in the AFC? Better Believe It Now</a></div>
                                             </li>
-                                            <li class="">
-                                                <div class="image">
+                                            <li class="row  border-bottom mt-4 pb-4">
+                                                <div class="image col-md-3">
                                                     <a href="#">
                                                         <picture height="95" class="mapping-sm_thumb lazysize">
                                                             <img alt="Florida Gators Dan Mullen"
@@ -1960,7 +1966,7 @@
                                                                 src="https://d.newsweek.com/en/full/1651438/florida-gators-dan-mullen.jpg?w=95&amp;h=95&amp;f=30197968cc79ba9807a1c10ec48a841b">
                                                         </picture>
                                                     </a></div>
-                                                <div class="info"><a href="#">Florida
+                                                <div class="info col-md-9 d-flex justify-content-center align-items-center"><a href="#">Florida
                                                         Coach Wanted 90,000 Fans, But Now His Players Have COVID</a>
                                                 </div>
                                             </li>
@@ -1977,12 +1983,12 @@
 
 
         <div class="row">
-            <div class="subscribe-block">
-                <div class="row">
-                    <div class="col-12 col-md-7 col-lg-8 p-4">
+            <div class="subscribe-block w-100">
+                <div class="row d-flex flex-column flex-lg-row">
+                    <div class="col-12 col-lg-7 p-4">
                         <div class="block-title text-danger text-2 text-uppercase">Subscribe</div>
-                        <div class="card bg-light p-5 rounded-0">
-                            <div class="fn image">
+                        <div class="card bg-light rounded-0 d-md-flex flex-md-row p-5">
+                            <div class="fn image col-12 col-md-5">
                                 <div class="mag-thumb prev">
                                     <img class="lazyloaded"
                                         src="https://d.newsweek.com/en/full/1641530/cover-october-02-2020.jpg?w=170&amp;q=95&amp;f=7dedf2b19f9910e285fdbdff096ed6a3">
@@ -1992,20 +1998,20 @@
                                         src="https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.jpg?w=170&amp;q=95&amp;f=f8144d83a028a40fe7ea6a5ed615ded7">
                                 </div>
                             </div>
-                            <div class="f1 info text-1 mt-4 d-flex flex-column justify-content-center">
+                            <div class="f1 info text-1 mt-4 col-12 col-md-7 d-flex flex-column justify-content-center">
                                 <h3 class="text-2 font-weight-bolde text-black-50r">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
                                 <p class="text-black-50">All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!</p>
                                 <button class="pelcro-subscribe-button btn btn-danger p-2 text-white rounded w-50 align-self-center font-weight-lighter">SUBSCRIBE <i class="fa fa-chevron-right"></i></button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex flex-column p-4">
+                    <div class="col-12  col-lg-5 d-flex flex-md-column p-4">
                         <div class="block-title text-danger px-4">NEWSLETTER</div>
-                        <div class="d-flex flex-column card bg-light rounded-0">
-                            <div class="h-25 start-5-advert w-100"
+                        <div class="d-flex flex-column flex-md-row card bg-light rounded-0">
+                            <div class="h-100 start-5-advert w-100 col-12 col-md-5"
                                 style="background: url('https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5') center center / cover no-repeat;">
                             </div>
-                            <div class="f1 info">
+                            <div class="f1 info col-12 col-md-7">
                                 <h3 class="p-4 text-center text-uppercase font-weight-bolder">The Starting 5</h3>
                                 <p class="text-black-50 text-1 text-center px-5">See why nearly a quarter of a million subscribers begin their day with the Starting
                                     5.</p>
@@ -2030,9 +2036,9 @@
             <div id="block-ibtg-footer-ibtg-footer" class="col-12" data-gtm-action="Footer_Link">
                 <div class="content w-100">
                     <footer class="page-footer container-fluid">
-                        <div class="d-flex flex-column border-bottom w-100">
-                            <div class="d-flex flex-column">
-                                <a class="brand" href="#"
+                        <div class="d-flex flex-column flex-md-row border-bottom w-100">
+                            <div class="d-flex flex-column flex-md-row w-75 flex-md-nowrap ">
+                                <a class="brand d-md-block w-100" href="#"
                                     title="Newsweek Homepage"> 
                                     <svg version="1.1" id="Layer_1"
                                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -2111,6 +2117,7 @@
 
 
     </main>
+
 
 </body>
 
