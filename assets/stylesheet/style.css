@@ -51,6 +51,7 @@ header {
   width: 120px;
   height: 30px;
   font-size: 10px;
+  border: none;
 }
 
 .n-title .icon-n {
@@ -175,6 +176,10 @@ header {
 @media (min-width: 1024px) {
   header {
     height: 140px;
+  }
+
+  .footer-links ul li {
+    border-right: 1px solid lightgray;
   }
 
   .rotate {
