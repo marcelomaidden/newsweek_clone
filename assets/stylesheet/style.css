@@ -90,6 +90,7 @@ header {
 
 .subscribe-block .card {
   height: 325px;
+  background-color: #f8f9fa;
 }
 
 .start-5-advert {
@@ -120,13 +121,30 @@ header {
   color: lightgray;
 }
 
+@media screen and (max-width: 767px) {
+  .subscribe-block .info {
+    top: -130px;
+    z-index: 3;
+    left: -20px;
+    text-align: center;
+  }
+
+  .subscribe-block .card {
+    margin-left: 50px;
+  }
+
+  .brand {
+    width: 50%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .magazine picture img {
     height: 100%;
   }
 
   .brand {
-    width: 25%;
+    width: 45%;
   }
 
   .input-group > .form-control {
@@ -145,7 +163,7 @@ header {
     background-color: #f72210;
     position: absolute;
     right: 13%;
-    top: -27px;
+    top: -37px;
   }
 
   .rotate2 {
@@ -153,7 +171,7 @@ header {
     background-color: #f72210;
     position: absolute;
     right: -40%;
-    top: -16px;
+    top: -26px;
     width: 54%;
   }
 
@@ -343,6 +361,12 @@ aside h3 {
 
 .trending-topics li a {
   color: #646262;
+}
+
+.section-picks .block-title a {
+  font-size: 16px;
+  color: #f72210;
+  font-weight: bolder;
 }
 
 .info a:hover,
