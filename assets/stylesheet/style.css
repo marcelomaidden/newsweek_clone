@@ -91,6 +91,7 @@ header {
 .subscribe-block .card {
   height: 325px;
   background-color: #f8f9fa;
+  border: none;
 }
 
 .start-5-advert {
@@ -136,6 +137,14 @@ header {
   .brand {
     width: 50%;
   }
+
+  .free-signup input {
+    width: 100%;
+  }
+
+  .free-signup div div {
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -144,11 +153,22 @@ header {
   }
 
   .brand {
-    width: 45%;
+    width: 35%;
   }
 
-  .input-group > .form-control {
-    width: 75%;
+  .free-signup input {
+    width: 130px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid lightgray;
+  }
+
+  .free-signup input:focus {
+    outline: none;
+  }
+
+  .start-5-advert {
+    height: 325px;
   }
 }
 
@@ -347,6 +367,10 @@ aside h3 {
   font-weight: bolder;
 }
 
+.social-links li a {
+  font-size: 25px;
+}
+
 .main-articles h3 a,
 .main-articles h1 a,
 .main-articles h4 a {
@@ -357,6 +381,14 @@ aside h3 {
   font-size: 15px;
   line-height: 20px;
   font-weight: bolder;
+}
+
+.navigation li a {
+  font-size: 78%;
+}
+
+.trending-topics strong {
+  font-size: 75%;
 }
 
 .trending-topics li a {
@@ -416,4 +448,8 @@ aside h3 {
   position: sticky;
   top: 0;
   align-self: flex-start;
+}
+
+.social-links li a:hover {
+  text-decoration: none;
 }
