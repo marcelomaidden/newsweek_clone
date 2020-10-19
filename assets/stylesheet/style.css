@@ -31,6 +31,7 @@ nav {
   background-color: #f72210;
   height: 50px;
   z-index: 10;
+  max-width: 100vw;
 }
 
 header {
@@ -132,7 +133,7 @@ header {
   }
 
   .subscribe-block .card {
-    margin-left: 50px;
+    margin-left: -18px;
   }
 
   .brand {
