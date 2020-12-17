@@ -1,6 +1,6 @@
 # The news week clone
 
-# A responsive web design based on The news week website made for learning purposes
+# A responsive web design based on The news week website where we could use different column layouts and position elements absolutely and relatively to their parent elements. Built using HTML, CSS, and Twitter Bootstrap framework. 
 
 ![screenshot](./assets/images/screenshot.png)
 
